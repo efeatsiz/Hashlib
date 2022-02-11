@@ -7,7 +7,7 @@ for input in range(100000):   #You can write any number you want in the range
     hash = sha256(str(input).encode('utf-8')).hexdigest()
     print(hash,input)
     stop =time.time()
-    print("Çözme Süresi(saniye) ",stop-start )
+    print("Result Time ",stop-start )
 quit()
 
 
